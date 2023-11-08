@@ -1,13 +1,15 @@
 <script setup>
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 </script>
 
 <template>
-  <AppTitle/>
+
+    <AppTitle/>
+    <AppHero/>
+  
 </template>
 
 <style scoped>
-#app{
-  text-align: center;
-}
+
 </style>
